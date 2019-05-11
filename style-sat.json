@@ -45,7 +45,7 @@
     }
   },
   "sprite": "https://openmaptiles.github.io/osm-bright-gl-style/sprite",
-  "glyphs": "https://free.tilehosting.com/fonts/{fontstack}/{range}.pbf?key={key}",
+  "glyphs": "https://free.tilehosting.com/fonts/{fontstack}/{range}.pbf?key=undefined",
   "layers": [
     {
       "id": "background",
@@ -480,7 +480,7 @@
         "Polygon"
       ],
       "layout": {
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "fill-color": "#a0c8f0",
@@ -518,19 +518,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "hsl(210, 67%, 85%)",
-        "fill-opacity": {
-          "stops": [
-            [
-              6,
-              0
-            ],
-            [
-              7,
-              1
-            ]
-          ]
-        }
+        "fill-color": "hsl(210, 67%, 85%)"
       }
     },
     {
@@ -542,7 +530,7 @@
       "source": "openmaptiles",
       "source-layer": "water",
       "layout": {
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "fill-pattern": "wave",
@@ -3788,12 +3776,11 @@
         "text-letter-spacing": 0.2,
         "text-max-width": 5,
         "text-rotation-alignment": "map",
-        "text-size": 14,
-        "visibility": "none"
+        "text-size": 14
       },
       "paint": {
-        "text-color": "rgba(246, 248, 250, 1)",
-        "text-halo-color": "rgba(64, 70, 96, 0.21)",
+        "text-color": "#74aee9",
+        "text-halo-color": "rgba(255,255,255,0.7)",
         "text-halo-width": 1.5
       }
     },
@@ -3853,34 +3840,11 @@
         "text-letter-spacing": 0.2,
         "text-max-width": 5,
         "text-rotation-alignment": "map",
-        "text-size": 14,
-        "visibility": "visible"
+        "text-size": 14
       },
       "paint": {
-        "text-color": {
-          "stops": [
-            [
-              7,
-              "rgba(243, 246, 248, 1)"
-            ],
-            [
-              8,
-              "rgba(10, 10, 10, 1)"
-            ]
-          ]
-        },
-        "text-halo-color": {
-          "stops": [
-            [
-              7,
-              "rgba(52, 41, 100, 0.7)"
-            ],
-            [
-              8,
-              "rgba(156, 136, 243, 0.7)"
-            ]
-          ]
-        },
+        "text-color": "#74aee9",
+        "text-halo-color": "rgba(255,255,255,0.7)",
         "text-halo-width": 1.5
       }
     },
@@ -3927,8 +3891,8 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgba(248, 250, 252, 1)",
-        "text-halo-color": "rgba(33, 40, 104, 0.7)",
+        "text-color": "#74aee9",
+        "text-halo-color": "rgba(255,255,255,0.7)",
         "text-halo-width": 1.5
       }
     },
@@ -4624,8 +4588,8 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgba(247, 241, 241, 1)",
-        "text-halo-color": "rgba(20, 20, 20, 0.8)",
+        "text-color": "#633",
+        "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 1.2
       }
     },
@@ -4664,8 +4628,8 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgba(241, 236, 236, 1)",
-        "text-halo-color": "rgba(26, 26, 26, 0.8)",
+        "text-color": "#333",
+        "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 1.2
       }
     },
@@ -4704,8 +4668,8 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgba(249, 246, 246, 1)",
-        "text-halo-color": "rgba(8, 8, 8, 0.8)",
+        "text-color": "#333",
+        "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 1.2
       }
     },
@@ -4752,30 +4716,8 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": {
-          "stops": [
-            [
-              6,
-              "rgba(251, 246, 246, 1)"
-            ],
-            [
-              7,
-              "rgba(24, 23, 23, 1)"
-            ]
-          ]
-        },
-        "text-halo-color": {
-          "stops": [
-            [
-              6,
-              "rgba(32, 30, 30, 0.8)"
-            ],
-            [
-              7,
-              "rgba(230, 221, 221, 0.8)"
-            ]
-          ]
-        },
+        "text-color": "#333",
+        "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 1.2
       }
     },
@@ -4829,8 +4771,8 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgba(243, 239, 239, 1)",
-        "text-halo-color": "rgba(22, 20, 20, 0.8)",
+        "text-color": "#333",
+        "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 1.2
       }
     },
@@ -4881,9 +4823,9 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgba(248, 248, 253, 1)",
+        "text-color": "#334",
         "text-halo-blur": 1,
-        "text-halo-color": "rgba(22, 22, 22, 0.8)",
+        "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 2
       }
     },
@@ -4934,20 +4876,9 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgba(237, 237, 245, 1)",
+        "text-color": "#334",
         "text-halo-blur": 1,
-        "text-halo-color": {
-          "stops": [
-            [
-              6,
-              "rgba(26, 25, 25, 0.8)"
-            ],
-            [
-              10,
-              "rgba(26, 25, 25, 0.8)"
-            ]
-          ]
-        },
+        "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 2
       }
     },
@@ -4998,9 +4929,9 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgba(245, 245, 249, 1)",
+        "text-color": "#334",
         "text-halo-blur": 1,
-        "text-halo-color": "rgba(18, 15, 15, 0.8)",
+        "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 2
       }
     },
@@ -5051,9 +4982,9 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgba(242, 242, 245, 1)",
+        "text-color": "#334",
         "text-halo-blur": 1,
-        "text-halo-color": "rgba(39, 44, 74, 0.8)",
+        "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 2
       }
     },
@@ -5082,9 +5013,9 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgba(242, 242, 245, 1)",
+        "text-color": "#334",
         "text-halo-blur": 1,
-        "text-halo-color": "rgba(39, 37, 82, 0.8)",
+        "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 2
       }
     }
