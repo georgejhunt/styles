@@ -4585,8 +4585,8 @@
         "mapbox:group": "1444849242106.713"
       },
       "paint": {
-        "text-color": "#633",
-        "text-halo-color": "rgba(255,255,255,0.8)",
+        "text-color": "rgba(243, 233, 233, 1)",
+        "text-halo-color": "rgba(12, 11, 11, 0.8)",
         "text-halo-width": 1.2
       },
       "source": "openmaptiles",
@@ -4625,8 +4625,8 @@
         "mapbox:group": "1444849242106.713"
       },
       "paint": {
-        "text-color": "#333",
-        "text-halo-color": "rgba(255,255,255,0.8)",
+        "text-color": "rgba(241, 237, 237, 1)",
+        "text-halo-color": "rgba(16, 15, 15, 0.8)",
         "text-halo-width": 1.2
       },
       "source": "openmaptiles",
@@ -4665,8 +4665,8 @@
         "mapbox:group": "1444849242106.713"
       },
       "paint": {
-        "text-color": "#333",
-        "text-halo-color": "rgba(255,255,255,0.8)",
+        "text-color": "rgba(241, 237, 237, 1)",
+        "text-halo-color": "rgba(18, 18, 18, 0.8)",
         "text-halo-width": 1.2
       },
       "source": "openmaptiles",
@@ -4713,8 +4713,8 @@
         "mapbox:group": "1444849242106.713"
       },
       "paint": {
-        "text-color": "#333",
-        "text-halo-color": "rgba(255,255,255,0.8)",
+        "text-color": "rgba(243, 238, 238, 1)",
+        "text-halo-color": "rgba(12, 11, 11, 0.8)",
         "text-halo-width": 1.2
       },
       "source": "openmaptiles",
@@ -4768,8 +4768,8 @@
         "mapbox:group": "1444849242106.713"
       },
       "paint": {
-        "text-color": "#333",
-        "text-halo-color": "rgba(255,255,255,0.8)",
+        "text-color": "rgba(249, 242, 242, 1)",
+        "text-halo-color": "rgba(8, 8, 8, 0.8)",
         "text-halo-width": 1.2
       },
       "source": "openmaptiles",
@@ -4820,9 +4820,9 @@
         "mapbox:group": "1444849242106.713"
       },
       "paint": {
-        "text-color": "#334",
+        "text-color": "rgba(244, 244, 247, 1)",
         "text-halo-blur": 1,
-        "text-halo-color": "rgba(255,255,255,0.8)",
+        "text-halo-color": "rgba(16, 16, 16, 0.8)",
         "text-halo-width": 2
       },
       "source": "openmaptiles",
@@ -4873,9 +4873,9 @@
         "mapbox:group": "1444849242106.713"
       },
       "paint": {
-        "text-color": "#334",
+        "text-color": "rgba(236, 236, 241, 1)",
         "text-halo-blur": 1,
-        "text-halo-color": "rgba(255,255,255,0.8)",
+        "text-halo-color": "rgba(16, 16, 16, 0.8)",
         "text-halo-width": 2
       },
       "source": "openmaptiles",
@@ -4926,9 +4926,9 @@
         "mapbox:group": "1444849242106.713"
       },
       "paint": {
-        "text-color": "#334",
+        "text-color": "rgba(243, 243, 247, 1)",
         "text-halo-blur": 1,
-        "text-halo-color": "rgba(255,255,255,0.8)",
+        "text-halo-color": "rgba(14, 13, 13, 0.8)",
         "text-halo-width": 2
       },
       "source": "openmaptiles",
@@ -5010,9 +5010,9 @@
         "mapbox:group": "1444849242106.713"
       },
       "paint": {
-        "text-color": "#334",
+        "text-color": "rgba(238, 238, 243, 1)",
         "text-halo-blur": 1,
-        "text-halo-color": "rgba(255,255,255,0.8)",
+        "text-halo-color": "rgba(20, 19, 19, 0.8)",
         "text-halo-width": 2
       },
       "source": "openmaptiles",
